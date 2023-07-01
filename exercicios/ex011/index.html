@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em diferentes dispositivos ou aumento e diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Imagem flexível">
+    </picture><!--A base, tem que ser a imagem padrão que vc quer carregar, e ACIMA dela os sources na ordem que devem ser carregados, de preferência do menor pro maior, sendo a maior a base-->
+    <h1>Reproduzindo áudio</h1>
+    <p>vamos reproduzir um audio</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mp3">
+    </audio>
+    
+    
+    <!--<audio src="midia/happy-mistake.mp3" controls autoplay></audio> autoplay faz com que o audio comece a tocar assim que a página é carregada nos formatos MP3 WAV e OGG-->
+    
+</body>
+</html>

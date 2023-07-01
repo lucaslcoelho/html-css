@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html
+  lang="pt-br
+"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <style>
+
+      body {
+        font-size: 1em;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bold;
+        text-align: justify;
+
+        /* medidas absolutas: cm mm in px pt pc
+           medidas relativas: em, ex, ch, rem, vw, vh, vmin, vmax, % 
+
+            Recomendação da W3C: usar px ou 
+            16px = 1em = 100% = 12pt = 0.75pc = 0.0625in
+
+            lighter, normal, bold, bolder, 100, 200, 300, 400, 500, 600, 700, 800, 900
+
+           */
+      }
+
+        h1 {
+            /*font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            text-align: center;
+            Essa é a ordem da shorthand
+            font-style > font-weight > font-size > font-family */
+            font: bold normal 1.5em Arial, Helvetica, sans-serif;
+            /*acima é uma shorthand*/
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo molestias
+      repellat eligendi exercitationem optio deserunt, maiores harum expedita
+      dolore nisi labore? Nobis consequuntur, ullam architecto accusantium
+      veritatis ad inventore natus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus iste
+      cupiditate nostrum, mollitia, quam quaerat architecto beatae in temporibus
+      tenetur, necessitatibus perspiciatis debitis harum eum nisi earum at eos
+      voluptatem.
+    </p>
+    <h2>Subtítulo</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. In expedita ut
+      dolor maxime asperiores cupiditate possimus eveniet libero ex minima
+      inventore sunt non illo, quos magnam aliquid nemo repellat fugit!
+    </p>
+  </body>
+</html>

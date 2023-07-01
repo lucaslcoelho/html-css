@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: rgb(0, 255, 170);
+        }
+    </style>
+    <!--Assim, todo texto usando a tag mark fica com a mesma cor-->
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    
+    <h2>Negrito ou Destaques</h2>
+        <p>Nessa frase temos um termo em <b>Negrito</b> usando a tag &lt;b&gt;, porém essa tag é não semântica</p>
+        <p>Nesta frase tenho um <strong>termo em destaque</strong> </p>
+    
+    <h2>Itálico ou Ênfase</h2>
+        <p>Nessa frase temos um <i>termo em itálico</i>, porém essa tag é não semântica</p>
+        <p>Nesta frase temo um termo em <em>ênfase</em> usando a tag &lt;em&gt;</p>
+    
+    <h2>Texto marcado</h2>
+        <p>Podemos criar também um <mark>termo marcado</mark> usando a tag &lt;mark&gt;</p> <!--Usando uma tag de style CSS dentro da tag html <mark style="background-color: rgb(0, 255, 170);">termo marcado</mark>, porém a maneira melhor pra trocar todas as cores do mark é criar um seletor no head-->
+
+    <h2>Texto grande e pequeno</h2>
+        <p>Estamos criando um <big>texto grande</big> e <small>um pequeno</small> neste parágrafo</p>
+    
+    <h2>Texto excluído</h2>
+        <p>podemos marcar um texto <del>como excluído</del> para inidcar que ele não deve ser considerado</p>
+
+    <h2>Texto inserido</h2>
+        <p>Podemos marcar um <ins>texto como inserido</ins> para dar ênfasee indicar que ele foi adicionado depois</p>
+
+    <h2>Texto sobrescrito</h2>
+        <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+
+    <h2>Texto subscrito</h2>
+        <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+</html>

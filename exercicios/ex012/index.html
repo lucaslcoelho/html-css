@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Trabalhando com vídeos hospedados localmentew</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <video width=750 controls> <!-- width=750 é opcional, mas é recomendado para que o vídeo não fique muito grande e também pode usar o comando poster e abrir a imagem de capa do vídeo -->
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="videos/meu-video.m4v" type="video/m4v">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <p>Seu navegador não suporta o elemento video.</p>
+
+        </video>
+
+         <h1>Inserindo videos do youtube</h1>
+        <p>Este vídeo está hospedado no youtube</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5YtgOlZnjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <br>
+        <h1>Inserindo videos do Vimeo</h1>
+        <p>Este vídeo está hospedado no Vimeo</p>
+        
+        <iframe src="https://player.vimeo.com/video/302341579?h=a3c91811a6&title=0&byline=0&portrait=0" width="640" height="296" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
